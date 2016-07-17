@@ -4,7 +4,7 @@
 --
 
 -- Structure
-create table if not exists babynames (name varchar(15) not null, meaning text not null);
+create table if not exists babynames (name varchar(15) not null, meaning text not null, key name (name));
 
 -- Data
 INSERT INTO `babynames` (`name`, `meaning`) VALUES
