@@ -5,6 +5,7 @@
 
 -- Structure
 create table if not exists babynames (name varchar(15) not null, meaning text not null, key name (name));
+create table if not exists overrides (ipaddr varchar(45) primary key);
 
 -- Data
 INSERT INTO `babynames` (`name`, `meaning`) VALUES
@@ -4544,4 +4545,5 @@ INSERT INTO `babynames` (`name`, `meaning`) VALUES
 ('ZULEMA', 'Healthy and Vigorous'),
 ('ZURIEL', 'The Lord is my Rock (Hb)'),
 ('ZWI', 'Gazelle (Nd)'),
-('ZYTA', 'FROM Teresa (Po)');
+('ZYTA', 'FROM Teresa (Po)'),
+('DRACUL', 'The Dragon');

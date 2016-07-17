@@ -8,9 +8,10 @@ Runs on PHP 5 with a MySQL backend.
 
 ## Features
  - [x] The aforementioned baby naming
- - [ ] Show what the name means
+ - [x] Shows what the name means when you hover/tap on it
  - [x] Annoying trumpet noise
  - [ ] Gender select
+ - [x] Occasionally does something weird
 
 ## Notes
 * Based on a joke from the excellent [Stop Podcasting Yourself](http://www.stoppodcastingyourself.com/)
