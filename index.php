@@ -58,7 +58,7 @@
 <link rel="stylesheet" type="text/css" href="<?php echo $cssfile; ?>" />
 <link rel="stylesheet" type="text/css" href="tooltip.css" />
 <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
-<script type="text/javascript" src="animateText.js"></script>
+<script type="text/javascript" src="animateText.min.js"></script>
 <script type="text/javascript" src="tooltip.js"></script>
 </head>
 <body>
