@@ -56,10 +56,10 @@
 <head>
 <title><?php echo $pagetitle; ?></title>
 <link rel="stylesheet" type="text/css" href="<?php echo $cssfile; ?>" />
-<link rel="stylesheet" type="text/css" href="tooltip.css" />
-<script type="text/javascript" src="jquery-1.10.2.min.js"></script>
-<script type="text/javascript" src="animateText.min.js"></script>
-<script type="text/javascript" src="tooltip.js"></script>
+<link rel="stylesheet" type="text/css" href="external/tooltip/tooltip.css" />
+<script type="text/javascript" src="external/jquery/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="external/animateText.js/animateText.min.js"></script>
+<script type="text/javascript" src="external/tooltip/tooltip.js"></script>
 </head>
 <body>
 <div id="begabox">
